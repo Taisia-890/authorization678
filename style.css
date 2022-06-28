@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family= Comforter+Brush & display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Comforter Brush', cursive;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1 {
+    font-weight: 1000;
+    text-shadow: 3px 2px 3px #8d7aaa;
+    margin: 30px 0px;
+    font-size: 50px;
+}
+
+hr {
+    background-color: #8d7aaa;
+    height: 10px;
+    border: none;
+    width: 80%;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 60px;
+    margin-bottom: 50px;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+form {
+    background-color: #8d7aaa;
+    border-radius: 40px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.registration {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.input {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.gender {
+    color: rgb(222, 212, 248);
+}
+
+.maininput {
+    background-color: rgb(222, 212, 248);
+    width: 90%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 15px;
+    color: #9461e1;
+    margin-bottom: 20px;
+}
+
+.maininput::placeholder {
+    color: #9461e1;
+}
+
+.inputradio {
+    margin-left: 60px;
+}
+
+textarea {
+    background-color: rgb(222, 212, 248);
+    color: #9461e1;
+    width: 80%;
+    height: 80px;
+    resize: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+textarea::placeholder {
+    color: #9461e1;
+    text-align: center;
+}
+
+button{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f6c359;
+    border: none;
+    border-radius: 15px;
+}
+.line{
+   background-color: rgb(255, 255, 255);
+filter: blur(3px);
+}
